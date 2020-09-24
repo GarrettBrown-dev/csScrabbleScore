@@ -6,12 +6,12 @@ namespace ScrabbleScore.Models
   {
     public static string GetScore(string userInput)
     {
-    Dictionary <int, string> letters = new Dictionary<int, string>(){
-    { 1, "a" }, { 3, "b" }, { 3, "c" }, { 2, "d" }, { 1, "e" }, { 4, "f" },
-    { 2, "g" }, { 4, "h" },{ 1, "i" }, { 8, "j" }, { 5, "k" }, { 1, "l" },
-    { 3, "m" }, { 1, "n" }, { 1, "o" }, { 3, "p" },{ 10, "q" }, { 1, "r" },
-    { 1, "s" }, { 1, "t" }, { 1, "u" }, { 4, "v" },{ 4, "w" }, { 8, "x" },
-    { 4, "y" }, { 10, "z" }
+    Dictionary <string, int> letters = new Dictionary<string, int>(){
+    { "a", 1 }, { "b", 3 }, { "c", 3 }, { "d", 2 }, { "e", 1 }, { "f", 4 },
+    { "g", 2 }, { "h", 4 }, { "i", 1 }, { "j", 8 }, { "k", 5 }, { "l", 1 },
+    { "m", 3 }, { "n", 1 }, { "o", 1 }, { "p", 3 }, { "q", 10 }, { "r" , 1 },
+    { "s", 1 }, { "t", 1 }, { "u", 1 }, { "v", 4 }, { "w", 4 }, { "x", 8 },
+    { "y", 4 }, { "z", 10 }
     };  
 
     int totalScore = 0;
@@ -19,15 +19,15 @@ namespace ScrabbleScore.Models
 
     for (int i = 0; i < user.Length; i++)
     {
-      foreach(KeyValuePair<int, string> letter in letters)
+      foreach(KeyValuePair<string, int> letter in letters)
       {
-        if (letter.Value == user[i].ToString())
+        if (letter.Key == user[i].ToString())
         {
-          totalScore += letter.Key;
+          totalScore += letter.Value;
         }
       }
     }
-      return "null"; //totalScore.ToString();
+      return totalScore.ToString();
     }
   }
 }
