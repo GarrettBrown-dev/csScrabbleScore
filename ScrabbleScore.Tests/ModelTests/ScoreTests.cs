@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ScrabbleScore;
+using ScrabbleScore.Models;
 
 namespace ScrabbleScore.Tests
 {
@@ -7,10 +7,9 @@ namespace ScrabbleScore.Tests
   public class ScoreTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void GetScore_GetScoreFromUserWord_Score()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      Assert.AreEqual("8", Score.GetScore("word"));
     }
   }
 }
