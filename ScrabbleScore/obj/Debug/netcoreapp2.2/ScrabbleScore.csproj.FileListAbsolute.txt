@@ -1,0 +1,11 @@
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\bin\Debug\netcoreapp2.2\ScrabbleScore.deps.json
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\bin\Debug\netcoreapp2.2\ScrabbleScore.runtimeconfig.json
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\bin\Debug\netcoreapp2.2\ScrabbleScore.runtimeconfig.dev.json
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\bin\Debug\netcoreapp2.2\ScrabbleScore.dll
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\bin\Debug\netcoreapp2.2\ScrabbleScore.pdb
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\obj\Debug\netcoreapp2.2\ScrabbleScore.csprojAssemblyReference.cache
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\obj\Debug\netcoreapp2.2\ScrabbleScore.csproj.CoreCompileInputs.cache
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\obj\Debug\netcoreapp2.2\ScrabbleScore.AssemblyInfoInputs.cache
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\obj\Debug\netcoreapp2.2\ScrabbleScore.AssemblyInfo.cs
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\obj\Debug\netcoreapp2.2\ScrabbleScore.dll
+C:\Users\mikem\Desktop\coding-practice\Week-8\ScrabbleScore.Solutions\ScrabbleScore\obj\Debug\netcoreapp2.2\ScrabbleScore.pdb
